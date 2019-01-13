@@ -5,6 +5,12 @@ public class app {
 		
 		return squared;
 	}
+	
+	public int cube(int num) {
+		int cubed = num*num*num;
+		
+		return cubed;
+	}
 
 	public static void main(String[] args) {
 		System.out.println("Hello");
